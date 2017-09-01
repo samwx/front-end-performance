@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Front-end performance</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="node_modules/reveal.js/css/theme/white.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h2>Perfomance no front-end</h2>
+                <p>Como fazer sua aplicação web voar</p>
+            </section>
+
+            <section data-background="#002b36" class="has-dark-background present">
+                <h2>Sobre mim</h2>
+                <div class="about">
+                    <div class="pull-left me">
+                        <img src="images/me.jpg" class="fragment" data-fragment-index="1" alt="">
+                    </div>
+                    <div class="pull-left">
+                        <p class="fragment" data-fragment-index="2">Samuel Martins</p>
+                        <p class="fragment" data-fragment-index="3">Analista de sistemas front-end</p>
+                        <p class="fragment" data-fragment-index="4">#TeamBLiP</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h3>Porque se preocupar com performance?</h3>
+            </section>
+
+            <section>
+                <h2>Usabilidade</h2>
+                <p class="fragment" data-fragment-index="1">Esse <i>trem</i> é importante demais!</p>
+                <p class="fragment" data-fragment-index="2">Lentidão na web afasta os usuários</p>
+            </section>
+
+            <section data-background-image="images/crying.gif"></section>
+
+            <section>
+                <h2>Uso massivo de dispositivos móveis</h2>
+                <p class="fragment" data-fragment-index="1">Carregar apenas o conteúdo relevante ao usuário e tal...</p>
+                <p class="fragment" data-fragment-index="2">Estatística aqui</p>
+            </section>
+
+            <section>
+                <h2>Sobrecarga ao back-end</h2>
+            </section>
+
+            <section data-background-image="images/crazy.gif"></section>
+
+            <section>
+                <h2>Importância para o Google</h2>
+                <p class="fragment" data-fragment-index="1">Principalmente para o <i>PageInsights</i></p>
+                <img class="fragment" data-fragment-index="1" src="images/page-insights.png" alt="">
+            </section>
+
+            <section data-background="#0e9a4d" class="has-dark-background present">
+                <h2>Estratégias básicas</h2>
+                <ul>
+                    <li class="fragment" data-fragment-index="1">CSS no início, JS no fim</li>
+                    <li class="fragment" data-fragment-index="2">
+                        Concatenar e minificar JS e CSS
+                        <ul>
+                            <li class="fragment" data-fragment-index="3">Mas como?!</li>
+                            <ul>
+                                <li class="fragment" data-fragment-index="4">Webpack (usado na take)</li>
+                                <li class="fragment" data-fragment-index="5">Gulp e Grunt</li>
+                                <li class="fragment" data-fragment-index="6">Ferramentas online (funciona mas é paia)</li>
+                            </ul>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section data-background="#3434ef">
+                <h2>Estratégias um pouco avançadas</h2>
+                <ul>
+                    <li class="fragment" data-fragment-index="1">Comprimir imagens</li>
+                    <li class="fragment" data-fragment-index="2">Comprimir HTML</li>
+                    <li class="fragment" data-fragment-index="3">Recursos externos com <i>async</i> ou <i>defer</i></li>
+                    <li class="fragment" data-fragment-index="4">Não usar <i>@import</i> do <i>css</i></li>
+                    <li class="fragment" data-fragment-index="5">Usar <i>CDNs</i></li>
+                </ul>
+            </section>
+
+            <section data-background="#713793" class="has-dark-background">
+                <h2>Estatégias avançadas</h2>
+                <ul>
+                    <li class="fragment" data-fragment-index="1">Não sobrescrever CSS</li>
+                    <li class="fragment" data-fragment-index="2">Definir largura e altura das imagens</li>
+                </ul>
+            </section>
+
+            <section data-background-image="images/surprised.gif"></section>
+
+            <section data-background="#364b43" class="has-dark-background present">
+                <h2>Estratégias <u>muito</u> avançadas</h2>
+                <p class="fragment" data-fragment-index="1">Complexidade de código</p>
+                <p class="fragment" data-fragment-index="2">O(n), O(n²), Log(n)...</p>
+            </section>
+
+            <section data-background="#9a0e0e">
+                <h3>Estratégias muito avançadas <u>mesmo</u></h3>
+                <ul>
+                    <li>Service workers</li>
+                    <li>Progressive web apps (PWA)</li>
+                </ul>
+            </section>
+
+            <section data-background-image="images/satisfied.gif"></section>
+
+            <section>
+                <h3>estratégias "não-front-end"</h3>
+                <ul>
+                    <li class="fragment" data-fragment-index="1">GZIP</li>
+                    <li class="fragment" data-fragment-index="2">Brotli</li>
+                    <li class="fragment" data-fragment-index="3">Multiple hostnames</li>
+                    <li class="fragment" data-fragment-index="4">HTTP/2 e multiplexação</li>
+                </ul>
+            </section>
+
+            <section data-background-image="images/hacker.gif"></section>
+
+            <section>
+                <h1>Pra finalizar...</h1>
+                <h2 class="fragment" data-fragment-index="1">Qual o ator preferido das abelhas?</h3>
+                <h3 class="fragment" data-fragment-index="2">R: O <i>MEL</i> Gibson</h4>
+            </section>
+
+            <section data-background="#0de0f9">
+                <h1>Muito obrigado!</h1>
+            </section>
+
+            <section>
+                <h2>Contatos</h2>
+                <p><strong>Twitter</strong>: @samwew</p>
+                <p><strong>Github</strong>: github.com/samwx</p>
+                <p><strong>Email</strong>: samuelmartins.sw@gmail.com</p>
+                <p>samuelmartins.me</p>
+            </section>
+        </div>
+    </div>
+
+    <script src="node_modules/reveal.js/js/reveal.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

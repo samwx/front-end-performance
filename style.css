@@ -1,0 +1,12 @@
+.pull-left { float: left;  }
+.pull-right { float: right; }
+.align-left { text-align: left; }
+.align-right { text-align: right; }
+
+.color-white { color: #fff !important }
+
+.about {
+    text-align: left
+}
+
+.about .me { margin-right: 20px; }

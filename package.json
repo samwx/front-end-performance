@@ -1,0 +1,19 @@
+{
+  "name": "front-end-performance",
+  "version": "1.0.0",
+  "description": "Material used for Front-end performance presentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "presentation",
+    "front-end",
+    "performance"
+  ],
+  "author": "Samuel Martins",
+  "license": "ISC",
+  "dependencies": {
+    "reveal.js": "^3.5.0"
+  }
+}

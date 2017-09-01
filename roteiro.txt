@@ -1,0 +1,31 @@
+Tema
+Sobre
+Introdução
+    Porque preocupar com performance
+        Usabilidade
+        Redes móveis
+        Sobrecarga ao back-end
+        Importância no page insights do google (rankeamento? e pontuação)
+
+Estratégias
+    Básicas
+        CSS no topo e JS no footer
+        Comprimir e minificar JS e CSS
+    Um pouco avançadas
+        Comprimir imagens
+        Comprimir HTML
+        Carregar scripts externos assincronamente (usando async e defer na tag script)
+    Avançadas
+        Não sobrescrever CSS
+        Definir largura e altura das imagens
+        Usar CDNs (content delivery networks)
+    MUITO avançadas
+        Complexidade do código (On, On², log(n²)...)
+    MUITO avançada MESMO
+        PWA e Service Workers
+Outras estratégias "não-front-end"
+    GZIP
+    Brotli (google)
+    Multiple hostnames
+    HTTP/2 e multiplexação
+Agradecimentos e contatos
